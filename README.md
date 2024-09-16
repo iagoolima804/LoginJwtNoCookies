@@ -36,20 +36,6 @@ Diferente de armazenar o token em localStorage, optamos por armazená-lo em cook
 Segurança: Cookies HTTP-only não podem ser acessados por scripts no navegador, evitando vulnerabilidades como XSS.
 Envio Automático: Cookies são enviados automaticamente com todas as requisições HTTP para o domínio que os gerou, facilitando a autenticação em requisições subsequentes.
 
-📂 Estrutura do Projeto
-
-frontend/
-  ├── src/
-  │   ├── components/
-  │   │   ├── Login.js          # Componente de Login
-  │   │   ├── Register.js       # Componente de Registro
-  │   │   ├── ValidateToken.js  # Componente para Validar o Token
-  │   │   ├── AuthContainer.js  # Componente para Autenticar a Validação do Token
-  │   ├── App.js                # Arquivo principal de configuração
-  │   ├── App.css               # Estilos da aplicação
-  │   └── index.js              # Ponto de entrada da aplicação React
-  └── README.md                 # Este arquivo README
-  
 
 ⚙️ Como Executar o Projeto
 Pré-requisitos:
